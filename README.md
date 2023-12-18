@@ -316,6 +316,12 @@ Google Cloud Run is a serverless platform for deploying containerized applicatio
 Service [churn-prob] revision [churn-prob-00001-yot] has been deployed and is serving 100 percent of traffic.
 Service URL: https://churn-prob-234gh2nz6a-rj.a.run.app
 
+#Test with Script
 python predict-test.py "https://churn-prob-234gh2nz6a-rj.a.run.app"
+
+#Test with Streamlit
+streamlit run myapp.py "https://churn-prob-234gh2nz6a-rj.a.run.app"
 ```
 
+Link to the screen recording of the Cloud Deployment
+[![Watch the video](./img/dall-e-img.png)](https://youtu.be/-VjZaG7cf7Y)
